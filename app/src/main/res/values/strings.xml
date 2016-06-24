@@ -4,4 +4,9 @@
     <string name="hint">Enter search query</string>
     <string name="search">Search</string>
     <string name="title_activity_article">ArticleActivity</string>
+    <string name="hintBeginDate">00/00/0000</string>
+    <string name="hintDate">06/23/2016</string>
+    <string name="month">month</string>
+    <string name="day">Day</string>
+    <string name="year">Year</string>
 </resources>
