@@ -51,6 +51,12 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
+ I encountered a lot of troubles while building this app! But I learned a lot, so it was worth it!
+  -I struggled with the infinite scrolling after implementing the new filter funtions
+  -I also spent a while trying to get a sliding panel view to work, but it turned out I was looking at a 2 year old library which was out of date (this was an important lesson!)
+  
+
+
 ## Open-source libraries used
 
 - [Android Async HTTP](https://github.com/loopj/android-async-http) - Simple asynchronous HTTP requests with JSON parsing
