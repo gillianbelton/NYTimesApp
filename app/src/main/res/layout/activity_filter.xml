@@ -6,6 +6,7 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@color/backgroundCustom"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.jolenam.nytimessearch.Activities.FilterActivity">
 
@@ -15,7 +16,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Begin Date"
         android:id="@+id/tvBeginDate"
-        android:padding="5dp"
+        android:padding="10dp"
         android:layout_marginTop="45dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
@@ -27,7 +28,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Sort Order"
         android:id="@+id/tvSort"
-        android:padding="5dp"
+        android:padding="10dp"
         android:layout_marginTop="46dp"
         android:layout_below="@+id/tvBeginDate"
         android:layout_alignParentLeft="true"
@@ -39,7 +40,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="News Desk Values"
         android:id="@+id/tvDeskValues"
-        android:padding="5dp"
+        android:padding="10dp"
         android:layout_centerVertical="true"
         android:layout_alignLeft="@+id/tvSort"
         android:layout_alignStart="@+id/tvSort" />

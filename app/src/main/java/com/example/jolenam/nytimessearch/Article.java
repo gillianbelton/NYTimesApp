@@ -1,10 +1,5 @@
 package com.example.jolenam.nytimessearch;
 
-import android.support.v4.view.MenuItemCompat;
-import android.support.v7.widget.ShareActionProvider;
-import android.view.Menu;
-import android.view.MenuItem;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -41,7 +36,7 @@ public class Article implements Serializable{
             this.webUrl = jsonObject.getString("web_url");
             this.headline = jsonObject.getJSONObject("headline").getString("main");
 
-            String typeCapitalized = capitalize(jsonObject.getString("document_type"));
+            String typeCapitalized = capitalize(jsonObject.getString("news_desk"));
             this.type = typeCapitalized;
 
             JSONArray multimedia = jsonObject.getJSONArray("multimedia");
